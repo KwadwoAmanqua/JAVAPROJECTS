@@ -10,9 +10,9 @@ public class frequency_sorting {
         }
         
                 
-        System.out.println("Rating | Frequency");
+        System.out.println("|Rating |Frequency|");
         for (int i = 1; i <= 5; i++) {
-            System.out.println(i + ": " + frequency[i]);
+            System.out.println("|   " + i + "   | " + frequency[i] + "       |");
         }
     }
     
